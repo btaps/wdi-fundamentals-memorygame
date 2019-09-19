@@ -62,7 +62,7 @@ footer {
 }
 
 .clearfix:after {
-visibility: hidden;
+visibility: hidden;	
 display: block;
 content: " ";
 clear: both;
@@ -73,5 +73,14 @@ font-size: 0;
 .name {
 	color: #F15B31;
 	font-weight: 700;
+}
+
+.linkOne {
+	color: red !important;
+}
+
+#linkMoreGames {
+	text-transform: lowercase;
+	margin: 0 5px;
 }
 
